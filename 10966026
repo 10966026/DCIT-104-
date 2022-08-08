@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int w = 0;
+    int v;
+    int sum = 0;
+
+     for(int v = 1; v <= 10000 ; v++)
+        {
+        if(v % 2 == 0)
+        {
+        sum = sum + v;
+        w++;
+
+        }
+        }
+        int Average = sum / w;
+        cout << "Average: " << Average;
+
+
+    return 0;
+}
